@@ -2,15 +2,11 @@
     background-color: #561A79;
     color: white;
     width:100%;
-
-
 }
 
 .header-nav {
     width:100%;
     border-bottom: 2px solid #561A79;
-
-
 }
 
 .header p {
@@ -52,21 +48,36 @@
 
 
 
-a:link {
+footer a:link {
      color:white;
      font-weight:700;
  }
-a:active {
+footer a:visited {
     color:white;
     font-weight:700;
 }
-a:hover {
+footer a:hover {
     color:white;
     font-weight:700;
 }
-a:visited {
+footer a:active {
     color:white;
     font-weight:700;
+}
+
+.maincontent a {
+    color:#561A79;
+    font-weight:700;
+    text-decoration:none;
+}
+.maincontent a:hover {
+    color:black;
+
+
+}
+.maincontent a:active {
+    color:black;
+
 }
 
 /* Sticky footer styles
@@ -77,9 +88,15 @@ html {
 }
 body {
     /* Margin bottom by footer height */
-    margin-bottom: 60px;
+    margin-bottom: 150px;
     font-family: 'Source Sans Pro', sans-serif;
     font-family: 'Droid Serif', serif;
+    font-size: 20px;
+}
+
+.maincontent {
+    margin-top: 50px;
+
 }
 .footer {
     position: absolute;
@@ -91,4 +108,42 @@ body {
 
 .main p {
     font-size:20px;
+}
+
+#projects {
+    display:none;
+}
+#resume {
+    display:none;
+}
+#contactMe {
+    display:none;
+}
+
+.skills li{
+    background-color: #561A79;
+    border-radius: 20px;
+    color: white;
+    list-style-type:none;
+    padding:10px;
+    margin:0px;
+    text-align:center;
+    display:inline;
+}
+.skills ul {
+    margin:0px;
+    padding-left:0px;
+}
+
+hr {
+    border: 1px dashed #561A79;
+}
+
+img {
+    border: 2px solid black;
+}
+
+
+.js-activemenu {
+    color: black;
 }
