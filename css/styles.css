@@ -1,12 +1,12 @@
 .header {
-    background-color: #561A79;
+    background-color: #267257;
     color: white;
     width:100%;
 }
 
 .header-nav {
     width:100%;
-    border-bottom: 2px solid #561A79;
+    border-bottom: 2px solid #267257;
 }
 
 .header p {
@@ -14,11 +14,11 @@
     padding: 20px;
     font-size: 60px;
     text-align: center;
-    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Lato', sans-serif;
 }
 
 .footer {
-    background-color: #561A79;
+    background-color: #267257;
     color: white;
 
 }
@@ -31,7 +31,7 @@
 
 .menu {
     cursor: pointer;
-    color: #561A79;
+    color: #267257;
     font-weight: 500;
     text-align:center;
 
@@ -73,7 +73,7 @@ footer a:active {
 }
 
 .maincontent a {
-    color:#561A79;
+    color:#267257;
     font-weight:700;
     text-decoration:none;
 }
@@ -96,8 +96,7 @@ html {
 body {
     /* Margin bottom by footer height */
     margin-bottom: 150px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-family: 'Droid Serif', serif;
+    font-family: 'Lato', sans-serif;
     font-size: 20px;
 }
 
@@ -128,7 +127,7 @@ body {
 }
 
 .skills li{
-    background-color: #561A79;
+    background-color: #267257;
     border-radius: 20px;
     color: white;
     list-style-type:none;
@@ -143,7 +142,7 @@ body {
 }
 
 hr {
-    border: 1px dashed #561A79;
+    border: 1px dashed #267257;
 }
 
 img {
