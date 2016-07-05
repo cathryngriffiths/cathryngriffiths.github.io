@@ -1,322 +1,201 @@
 <!DOCTYPE html>
 <html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <meta name="description" content="Cathryn Griffiths is a Web/Software Developer living in Montreal, Canada. She is
-    also a part-time Bachelor of Computer Science student Concordia University, in the Web Services and Applications option">
-    <title>Cathryn Griffiths</title>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <meta name="description" content="Personal website for Cathryn Griffiths, a web developer based in Montreal, Canada.">
+        <title>Cathryn Griffiths | Web Developer</title>
 
-    <!-- Bootstrap -->
-    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
-    <link href="styles.css" rel="stylesheet">
+        <!-- CSS --> 
+        <link href="css/fonts.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
-    <!-- Google Analytics -->
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
 
-        ga('create', 'UA-56262489-1', 'auto');
-        ga('send', 'pageview');
+        <!-- Google Analytics -->
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    </script>
-</head>
-<body>
+            ga('create', 'UA-56262489-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+    </head>
+    <body>
+        <!-- HEADER -->
+        <header>
+                <h1>Cathryn Griffiths</h1>
+        </header>
 
-<header class="header">
-        <p>Cathryn Griffiths</p>
-</header>
-
-<div class="container header-nav">
-        <div class="col-md-2"></div>
-        <div class="col-md-2 menu aboutMe-tab js-activemenu">
-            <p>
-                <i class="fa fa-user fa-lg"></i> <br />
+        <!-- NAVIGATION BAR -->
+        <nav>
+            <div class="button">
+                <span class="icon icon-me"></span>
                 About Me
-            </p>
-        </div>
-        <div class="col-md-2 menu projects-tab">
-            <p><i class="fa fa-puzzle-piece fa-lg"></i> <br />
-                My Projects</p>
-        </div>
-        <div class="col-md-2 menu resume-tab">
-            <p><i class="fa fa-file-text"></i></i> <br />
-                My Resume</p>
-        </div>
-        <div class="col-md-2 menu contactMe-tab">
-            <p><i class="fa fa-envelope"></i> <br />
-                Contact Me</p>
-        </div>
-        <div class="col-md-2"></div>
-</div>
+            </div>
+            <div class="button">
+                <span class="icon icon-projects"></span>
+                My Projects
+            </div>
+            <div class="button">
+                <span class="icon icon-resume"></span>
+                My Resume
+            </div>
+            <div class="button">
+                <span class="icon icon-contact"></span>
+                Contact Me
+            </div>
+        <nav>
 
-<div class="container maincontent">
-    <div id="aboutMe">
-        <div class="col-md-4"><p><img src="photo.jpg" class="img-circle" width="90%"/></p></div>
-        <div class="col-md-8">
-        <h1>Hi!</h1>
-        <p>
-            I'm Cathryn.
-        </p>
-        <p>
-            I'm a software developer living in Montreal, Canada.
-        </p>
-            <p>
-            I enjoy building web applications and coding exciting, fun ideas into reality.
-
-            </p>
-            <p>
-                Check out <a><span class="projects-tab link">my projects</span></a> to see some of the things I've
-                been working on, and don't hesitate to
-                <a><span class="contactMe-tab link">contact me</span></a>
-                with your ideas, new opportunities, or just to say hello!
-        </div>
-    </div>
-
-
-    <div id="projects">
-        <div class="row">
-            <p class="text-center">Below are details for some of the projects that I have been working on. To see more projects, please visit me on <a href="http://www.github.com/escrimeuse" target="_blank">GitHub</a>.</p>
-
-        </div>
-        <hr/>
-        <div class="row">
-            <div class="col-md-4 text-right"><p><img src="beets.jpg" class="img-circle" width="70%"/></p></div>
-            <div class="col-md-8">
-                <h1>reserveFresh <small><a href="http://www.reservefresh.com" target="_blank"><i class="fa fa-external-link"></i></a></small></h1>
+        <!-- MAIN CONTENT -->
+        <section class="main">
+            <section id="about">
+                <h2>About Me</h2>
                 <p>
-                    reserveFresh is an e-commerce platform built specifically for farmers and their needs.
-                    It provides farmers with an online storefront for their market, where customers can view the
-                    products available at market and make reservations for pick up.
+                    Hi! I'm Cathryn.
                 </p>
-                <p>Laravel, MySQL, HTML, CSS, Bootstrap, PHP, Javascript</p>
-            </div>
-
-        </div>
-        <hr/>
-        <div class="row">
-            <div class="col-md-8 text-right">
-            <h1>ShowBucket <small><a href="https://github.com/escrimeuse/horseevent" target="_blank"><i class="fa fa-github"></i></a></small></h1>
-            <p>
-                ShowBucket is a web application for horse show management. It provides an online platform for
-                show organizers to create and manage horse shows. It also allows horse show competitors to register for
-                shows online, view show results, and search for nearby/upcoming shows.
-            </p>
-            <p>Laravel, MySQL, HTML, CSS, Bootstrap, PHP</p>
-            </div>
-            <div class="col-md-4 text-left"><p><img src="Horse.png" class="img-circle" width="70%"/></p></div>
-
-        </div>
-        <hr/>
-        <div class="row">
-            <div class="col-md-4 text-right"><p><img src="Reddit.png" class="img-circle" width="70%"/></p></div>
-        <div class="col-md-8">
-            <h1>Reddit Bots <small><a href="https://github.com/escrimeuse/Ocelbot" target="_blank"><i class="fa fa-github"></i></a></small> <small><a href="https://github.com/escrimeuse/PregnancyBot" target="_blank"><i class="fa fa-github"></i></a></small></h1>
-            <p>
-                I'll admit it: <br/>
-                I'm a Redditor. <br/>
-                I love novelty Reddit bots. <br/>
-                I love coming up with fun bot ideas. <br/>
-                I love making these ideas a reality. <br/>
-            </p>
-            <p>Python</p>
-</div>
-    </div>
-</div>
-    <div id="resume">
-
-        <div class="row">
-            <div class="col-md-3">
-                <h1>Skills</h1>
-            </div>
-            <div class="col-md-9">
+                <p> 
+                    I'm a web developer living in Montreal, Quebec, Canada. 
+                </p>
+                <p>
+                    I enjoy building web applications and coding fun, exciting ideas into reality.
+                </p>
+                <p>
+                    Please take a look at some of the <span>projects</span> I've worked on, or glance at <span>my resume</span> to learn more about me. Of course, don't hesitate to <span>contact me</span> with your ideas, opportunities, or just to say hello!
+                </p>
+            </section>
+            <section id="projects">
+                <h2>My Projects</h2>
+                <p>
+                    Below are some details of the projects I've worked on. To see more projects, please visit me on <a>GitHub</a>.
+                <p>
+                <ul>
+                    <li>
+                        <h3>Board Game Collection</h3>
+                        <div>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>BoardGameGeek API</span>
+                        </div>
+                        <p>
+                            A single-page web application visualizing my board game collection. Games can be sorted by name, playing time, or number of players, and can be filtered according to game mechanics or game category. 
+                        </p>
+                    </li>
+                    <li>
+                        <h3>Secret Santa</h3>
+                        <div>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <p>
+                            A single-page web application for organizing a Secret Santa. 
+                        </p>
+                    </li>
+                    <li>
+                        <h3>Ocelbot</h3>
+                        <div>
+                            <span>Python</span>
+                            <span>Reddit API</span>
+                        </div>
+                        <p>
+                            A Reddit novelty bot inspired by the TV show Archer, that replies "HE REMEMBERS ME!" to any comment that contains the word "BABOU". Note that this bot is not currently active. 
+                        </p>
+                    </li>
+                    <li>
+                        <h3>Risk</h3>
+                        <div>
+                            <span>C++</span>
+                        </div>
+                        <p>
+                            A console-based, multiplayer Risk game created as a team project for my Advanced Program Design in C++ class at Concordia University in Fall 2015. My main responsibilities were coding the battle phase, fortification/reinforcement phase, and the game saver/loader. Some of the design patterns I used were the Observer pattern and Builder pattern. 
+                        </p>
+                    </li>
+                </ul>
+            </section>
+            <section id="resume">
+                <h2>My Resume</h2>
+                <h3>Skills</h3>
                 <ul>
                     <li>HTML</li>
                     <li>CSS</li>
-                    <li>Java</li>
-                    <li>C++</li>
-                    <li>C#</li>
                     <li>JavaScript</li>
-                    <li>AspectJ</li>
+                    <li>Python</li>
+                    <li>C++</li>
+                    <li>Java</li>
                     <li>Git</li>
-                    <li>TortoiseGit</li>
-                    <li>Jira</li>
-                    <li>Confluence</li>
+                    <li>Project management</li>
+                    <li>Technical writing</li>
                 </ul>
-            </div>
-        </div>
-        <hr/>
-        <div class="row">
-            <div class="col-md-3">
-                <h1>Experience</h1>
-            </div>
-            <div class="col-md-9">
+                <h3>Experience</h3>
+                <ul>
+                    <li>
+                        <span>Junior Software Developer</span>
+                        <span>September 2015 - December 2015</span>
+                        <span>CogniSens Athletics Inc.</span>
+                    </li>
+                    <li>
+                        <span>I.T. and Operations Intern</span>
+                        <span>May 2015 - August 2015</span>
+                        <span>CogniSens Athletics Inc</span>
+                    </li>
+                    <li>
+                        <span>Project Manager</span>
+                        <span>November 2011 - November 2013</span>
+                        <span>NeuroRx Research</span>
+                    </li>
+                </ul>
+                <h3>Education</h3>
+                <ul>
+                    <li>
+                        <span>Bachelor of Computer Science [INCOMPLETE]</span>
+                        <span>2014 - 2015</span>
+                        <span>Concordia University</span>
+                        <span>Montreal, Quebec, Canada</span>
+                    </li>
+                    <li>
+                        <span>Bachelor of Science (Honours), major Psychology</span>
+                        <span>2007 - 2010</span>
+                        <span>McGill University</span>
+                        <span>Montreal, Quebec, Canada</span>
+                    </li>
+                </ul>
+            </section>
+            <section id="contact">
+                <h2>Contact Me</h2>
+                <a href="mailto:cathryn.griffiths@gmail.com">
+                    <span class="icon icon-mail"></span>
+                    cathryn dot griffiths at gmail dot com
+                </a>
+                <a href="https://www.linkedin.com/in/cathryn-griffiths-52008015" target="_blank">
+                    <span class="icon icon-linkedin"></span>
+                    cathryn-griffiths-52008015
+                </a>
+                <a href="https://github.com/escrimeuse" target="_blank">
+                    <span class="icon icon-github"></span>
+                    escrimeuse
+                </a>
+            </section>
+        </section>
 
-                <p>
-                    <strong>Junior Software Developer</strong><br/>
-                    September 2015 - present <br/>
-                    CogniSens Athletics Inc. <br/>
-                    Montreal, Quebec
-                </p>
+        <!-- FOOTER -->
+        <footer>
+            <a href="http://www.github.com/escrimeuse/escrimeuse.github.io">View this site's code on GitHub</a> 
+            <a href="mailto:cathryn.griffiths@gmail.com">
+                <span class="icon icon-mail"></span>
+            </a>
+            <a href="https://www.linkedin.com/in/cathryn-griffiths-52008015" target="_blank">
+                <span class="icon icon-linkedin"></span>
+            </a>
+            <a href="https://github.com/escrimeuse" target="_blank">
+                <span class="icon icon-github"></span>
+            </a>
+        </footer>
 
-               <p class="work-desc">I incorporated the new web installer (completed during my CogniSens' internship, May - August 2015) into the build process for NeuroTracker, CogniSens' core product. As the expert on NeuroTracker's
-            new web installer, I am responsible for all web installer bug fixes and improvements. </p>
-                <p class="work-desc">
-                    In addition to my installer work, I am also responsible for improvements to the <a href="http://www.neurotracker.net" target="_blank">NeuroTracker website</a> on an as-needed basis. An example of this work includes a picture slider, built using Bootstrap and media queries, that appears for mobile and tablet views.
-                </p>
-                <p class="work-desc">
-                    I am currently in the process of building an email parsing script using Python, which will be used to automate product activations.
-                </p>
-
-
-
-                <p>
-                    <strong>I.T. and Operations Intern</strong><br/>
-                    May 2015 - August 2015 <br/>
-                    CogniSens Athletics Inc. <br/>
-                    Montreal, Quebec
-                </p>
-
-            <p class="work-desc" >I was tasked with building a web installer for CogniSens' core product, NeuroTracker,
-                using BitRock InstallBuilder. I accomplished this using InstallBuilder's GUI and built-in XML editor.
-                I wrote batch scripts for performing the silent installation of third-party dependency software. I also
-                wrote a C++ program using NVAPI for setting NVIDIA graphics card settings to optimal values for running
-                 the NeuroTracker software.</p>
-                <p class="work-desc">In addition to building the web installer, I was also responsible for investigating and resolving
-                    technical support issues, and performed software pre-release testing. </p>
-
-                <p>
-                    <strong>Project Manager</strong><br/>
-                    November 2011 - November 2013 <br/>
-                    NeuroRx Research <br/>
-                    Montreal, Quebec
-                </p>
-
-                <p class="work-desc">I was the project manager for the MRI portion of multiple phase 2 international clinical trials in Multiple Sclerosis and Alzheimer’s Disease research. I coordinated the MRI activation of 200+ international clinical sites, which included coordinating with clinical site staff, pharmaceutical company managers, and in-house MRI technical experts. On a daily basis I performed quality control on patient MRI scans using in-house developed software, and coordinated the completion of various MRI-related study metrics with various department team members.
-                </p>
-                <p class="work-desc">I was also responsible for leading weekly team teleconferences, and writing and sending weekly status reports to all relevant clinical trial team members.
-                </p>
-                <p class="work-desc">I attended investigator meetings in Chicago USA, London UK, and Sydney AUS, where I interacted with various trial team members including doctors, nurses, and pharmaceutical company managers and researchers.
-                </p>
-            </div>
-        </div>
-        <hr/>
-        <div class="row">
-            <div class="col-md-3">
-                <h1>Education</h1>
-            </div>
-            <div class="col-md-9">
-                <p><strong>Bachelor of Computer Science</strong> <br/>
-                    2014 - present <strong>[IN PROGRESS]</strong><br/>
-                Concordia University<br/>
-                Montreal, Quebec</p>
-                    <p class="work-desc"><strong>Relevant coursework:</strong>
-                        Object Oriented Programming I & II (Java);
-                        Fundamentals of Programming (C++);
-                        Web Programming (HTML, CSS, Javascript, PHP);
-                        Advanced Program Design Using C++ (IN PROGRESS - C++);
-                        Data Structures and Algorithms (IN PROGRESS - Java);
-                        Principles of Programming Languages (IN PROGRESS - Java, AspectJ)</p>
-                <p><strong>Bachelor of Science (Honours)</strong><br/>
-                2007 - 2010 <br/>
-                McGill University<br/>
-                Montreal, Quebec</p>
-                <p class="work-desc">
-                    Completed honours thesis under the supervision of Dr. Lesley K. Fellows
-                    and Dr. Nathalie Camille at the Montreal Neurological Institute, resulting
-                    in published paper in 2011 in the Journal of Neuroscience entitled “Ventromedial
-                    Frontal Lobe Damage Disrupts Value Maximization in Humans”
-                    <a href="http://www.jneurosci.org/content/31/20/7527.full" target="_blank"><i class="fa fa-external-link"></i></a>
-
-                </p>
-                <p class="work-desc">
-                    Member of the McGill Varsity Fencing Team (2007-2008, 2009-2010)
-                    and McGill Fencing Club (2007-2010)
-
-                </p>
-            </div>
-        </div>
-
-    </div>
-
-    <div id="contactMe">
-        <p class="text-center">
-
-            Please feel free to contact me - I'm always interested in hearing about new opportunities!
-        </p>
-        <hr/>
-        <div class="row text-center">
-            <div class="col-md-3">
-                <p>
-                    <a href="mailto:cathryn.griffiths@gmail.com">
-                        <span class="fa fa-5x fa-envelope"></span><br/>
-                        cathryn.griffiths<br/>
-                        at gmail dot com
-                    </a>
-                </p>
-            </div>
-            <div class="col-md-3">
-                <p>
-                    <a href="https://ca.linkedin.com/pub/cathryn-griffiths/15/80/520">
-                    <span class="fa fa-5x fa-linkedin-square"></span><br/>
-                        LinkedIn
-                    </a>
-
-                </p>
-            </div>
-            <div class="col-md-3">
-                <p>
-                    <a href="http://www.github.com/escrimeuse">
-                    <span class="fa fa-5x fa-github"></span><br/>
-                        GitHub
-                    </a>
-                </p>
-            </div>
-            <div class="col-md-3">
-                <p>
-                    <a href="http://stackexchange.com/users/5360170/escrimeuse">
-                    <span class="fa fa-5x fa-stack-overflow"></span><br/>
-                        StackOverflow
-                    </a>
-                </p>
-            </div>
-
-        </div>
-
-
-
-
-
-
-    </div>
-
-
-</div>
-
-<footer class="footer">
-        <p>
-            &#169; 2015 Cathryn Griffiths &nbsp; &nbsp; &nbsp;
-            <a href="http://www.github.com/escrimeuse/escrimeuse.github.io">View this site's code on GitHub</a> &nbsp; &nbsp; &nbsp;
-            <a href="mailto:cathryn.griffiths@gmail.com"><span class="fa fa-envelope "></span></a>
-            <a href="http://www.github.com/escrimeuse"><span class="fa fa-github "></span></a>
-            <a href="https://ca.linkedin.com/pub/cathryn-griffiths/15/80/520"><span class="fa fa-linkedin-square "></span></a>
-            <a href="http://stackexchange.com/users/5360170/escrimeuse"><span class="fa fa-stack-overflow "></span></a>
-        </p>
-</footer>
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="bower_components/jquery/dist/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="display.js"></script>
-</body>
+    <!-- JavaScript -->
+    <script src="display.js"></script>
+    </body>
 </html>
