@@ -1,7 +1,7 @@
 /* Generic, top-level styling */
 
 html {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 .icon {
@@ -11,3 +11,53 @@ html {
 .button {
     cursor:pointer;
 }
+
+h1 {
+    color: white;
+    font-size: 350%;
+    margin:0;
+    font-weight: 100;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+/* HEADER */
+header {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    background-color: #4D2C73;
+}
+
+/* NAVBAR */
+nav {
+    border-bottom: 0.2em solid #4D2C73;
+    text-align: center;
+}
+
+nav .button {
+    display: inline-block;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    color: #4D2C73;
+    transition: color 0.25s;
+    font-weight:bold;
+    letter-spacing:0.05em;
+    font-size:110%;
+}
+
+nav .icon {
+    padding-bottom: 0.25em;
+    font-size:150%;
+}
+
+/* MAIN CONTENT */
+.main {
+    width: 70%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+
