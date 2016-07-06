@@ -2,6 +2,24 @@
 
 html {
     font-family: 'Raleway', sans-serif;
+    line-height: 1.5em;
+}
+
+h1 {
+    color: white;
+    font-size: 350%;
+    margin:0;
+    font-weight: 100;
+    font-family: 'Fredericka the Great', cursive;
+    line-height: 1em;
+}
+
+h2 {
+    visibility: hidden;
+}
+
+h3 {
+    color: #265A6B;
 }
 
 .icon {
@@ -12,51 +30,70 @@ html {
     cursor:pointer;
 }
 
-h1 {
-    color: white;
-    font-size: 350%;
-    margin:0;
-    font-weight: 100;
-    font-family: 'Fredericka the Great', cursive;
-}
-
-/* HEADER */
+/* HEADER ----------------------------------------------------------*/
 header {
     padding-top: 1em;
     padding-bottom: 1em;
     text-align: center;
-    background-color: #4D2C73;
+    background-color: #D57B6B;
 }
 
-/* NAVBAR */
+/* NAVBAR ----------------------------------------------------------*/
 nav {
-    border-bottom: 0.2em solid #4D2C73;
+    background-color: #4E9C68;
     text-align: center;
 }
 
 nav .button {
-    display: inline-block;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 3em;
+    width: 6em;
     padding-left: 2em;
     padding-right: 2em;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    color: #4D2C73;
-    transition: color 0.25s;
+    color: white;
+    transition: background-color 0.5s, opacity 0.5s;
     font-weight:bold;
     letter-spacing:0.05em;
     font-size:110%;
 }
 
-nav .icon {
-    padding-bottom: 0.25em;
-    font-size:150%;
+nav .button:hover {
+    background-color: #2E8B57;
 }
 
-/* MAIN CONTENT */
+nav .button.active {
+    background-color: #8fbc8f ;
+}
+
+/* MAIN CONTENT ----------------------------------------------------*/
 .main {
     width: 70%;
     margin-left:auto;
     margin-right:auto;
+    position: relative;
+}
+
+.main section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s;
+    width: 100%;
+}
+
+.main section.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* FOOTER ----------------------------------------------------------*/
+footer {
+    display: none;
 }
 
 

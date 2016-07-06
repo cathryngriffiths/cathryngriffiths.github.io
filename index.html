@@ -29,32 +29,28 @@
     <body>
         <!-- HEADER -->
         <header>
-                <h1>Cathryn Griffiths</h1>
+            <h1>Cathryn Griffiths</h1>
         </header>
 
         <!-- NAVIGATION BAR -->
         <nav>
-            <div class="button">
-                <div class="icon icon-me"></div>
+            <div class="button active" data-section="about">
                 About Me
             </div>
-            <div class="button">
-                <div class="icon icon-projects"></div>
+            <div class="button" data-section="projects">
                 My Projects
             </div>
-            <div class="button">
-                <div class="icon icon-resume"></div>
+            <div class="button" data-section="resume">
                 My Resume
             </div>
-            <div class="button">
-                <div class="icon icon-contact"></div>
+            <div class="button" data-section="contact">
                 Contact Me
             </div>
         </nav>
 
         <!-- MAIN CONTENT -->
         <section class="main">
-            <section id="about">
+            <section data-section="about" class="active">
                 <h2>About Me</h2>
                 <p>
                     Hi! I'm Cathryn.
@@ -69,7 +65,7 @@
                     Please take a look at some of the <span>projects</span> I've worked on, or glance at <span>my resume</span> to learn more about me. Of course, don't hesitate to <span>contact me</span> with your ideas, opportunities, or just to say hello!
                 </p>
             </section>
-            <section id="projects">
+            <section data-section="projects">
                 <h2>My Projects</h2>
                 <p>
                     Below are some details of the projects I've worked on. To see more projects, please visit me on <a>GitHub</a>.
@@ -119,7 +115,7 @@
                     </li>
                 </ul>
             </section>
-            <section id="resume">
+            <section data-section="resume">
                 <h2>My Resume</h2>
                 <h3>Skills</h3>
                 <ul>
@@ -172,7 +168,7 @@
                     </li>
                 </ul>
             </section>
-            <section id="contact">
+            <section data-section="contact">
                 <h2>Contact Me</h2>
                 <a href="mailto:cathryn.griffiths@gmail.com">
                     <span class="icon icon-mail"></span>
