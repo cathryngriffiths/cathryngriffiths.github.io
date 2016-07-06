@@ -20,6 +20,12 @@ h2 {
 
 h3 {
     color: #265A6B;
+    margin-top: 0;
+}
+
+ul {
+    padding-left: 0;
+    list-style: none;
 }
 
 .icon {
@@ -35,7 +41,7 @@ header {
     padding-top: 1em;
     padding-bottom: 1em;
     text-align: center;
-    background-color: #D57B6B;
+    background-color: #2E8B57;
 }
 
 /* NAVBAR ----------------------------------------------------------*/
@@ -90,6 +96,38 @@ nav .button.active {
     visibility: visible;
     opacity: 1;
 }
+
+/*  PROJECTS  ------------------------------------------------------*/
+
+[data-section=projects] ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+[data-section=projects] li {
+    width: 40%;
+    border: 2px solid #265A6B;
+    padding: 1em;
+    margin: 1em;
+    display: inline-block;
+}
+
+[data-section=projects] span {
+    display: inline-flex;
+    align-items: center;
+    height: 2em;
+    background-color: #265A6B;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 80%;
+    letter-spacing: 0.1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: 0.2em;
+    margin-left: 0em;
+}
+
 
 /* FOOTER ----------------------------------------------------------*/
 footer {
