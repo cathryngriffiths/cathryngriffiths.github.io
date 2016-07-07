@@ -70,45 +70,45 @@
                 <p>
                     Below are some details of the projects I've worked on. To see more projects, please visit me on <a>GitHub</a>.
                 <p>
-                <ul>
-                    <li>
+                <ul class="projects">
+                    <li class="project">
                         <h3>Board Game Collection</h3>
-                        <div>
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>JavaScript</span>
-                            <span>BoardGameGeek API</span>
-                        </div>
+                        <ul class="technologies">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>BoardGameGeek API</li>
+                        </ul>
                         <p>
                             A single-page web application visualizing my board game collection. Games can be sorted by name, playing time, or number of players, and can be filtered according to game mechanics or game category. 
                         </p>
                     </li>
-                    <li>
+                    <li class="project">
                         <h3>Secret Santa</h3>
-                        <div>
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>JavaScript</span>
-                        </div>
+                        <ul class="technologies">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
                         <p>
                             A single-page web application for organizing a Secret Santa. 
                         </p>
                     </li>
-                    <li>
+                    <li class="project">
                         <h3>Ocelbot</h3>
-                        <div>
-                            <span>Python</span>
-                            <span>Reddit API</span>
-                        </div>
+                        <ul class="technologies">
+                            <li>Python</li>
+                            <li>Reddit API</li>
+                        </ul>
                         <p>
                             A Reddit novelty bot inspired by the TV show Archer, that replies "HE REMEMBERS ME!" to any comment that contains the word "BABOU". Note that this bot is not currently active. 
                         </p>
                     </li>
-                    <li>
+                    <li class="project">
                         <h3>Risk</h3>
-                        <div>
-                            <span>C++</span>
-                        </div>
+                        <ul class="technologies">
+                            <li>C++</li>
+                        </ul>
                         <p>
                             A console-based, multiplayer Risk game created as a team project for my Advanced Program Design in C++ class at Concordia University in Fall 2015. My main responsibilities were coding the battle phase, fortification/reinforcement phase, and the game saver/loader. Some of the design patterns I used were the Observer pattern and Builder pattern. 
                         </p>
@@ -118,7 +118,7 @@
             <section data-section="resume">
                 <h2>My Resume</h2>
                 <h3>Skills</h3>
-                <ul>
+                <ul class="skills">
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JavaScript</li>
@@ -126,45 +126,69 @@
                     <li>C++</li>
                     <li>Java</li>
                     <li>Git</li>
-                    <li>Project management</li>
-                    <li>Technical writing</li>
                 </ul>
-                <h3>Experience</h3>
-                <ul>
+                <h3>Relevant Experience</h3>
+                <ul class="experience">
                     <li>
-                        <span>Front-End Developer</span>
-                        <span>January 2016 - present</span>
-                        <span>FFunction</span>
+                        <h4>Front-End Developer</h4>
+                        <span class="dates">January 2016 - present</span>
+                        <span class="company">FFunction</span>
+                        <ul class="duties">
+                            <li>
+                                Responsible for coding front-end web applications (desktop, tablet, and mobile) using HTML, CSS, and JavaScript, based on
+                                wireframes and mockups created by the design and UX team. 
+                            </li>
+                        </ul>
                     </li>
                     <li>
-                        <span>Junior Software Developer</span>
-                        <span>September 2015 - December 2015</span>
-                        <span>CogniSens Athletics Inc.</span>
+                        <h4>Junior Software Developer</h4>
+                        <span class="dates">September 2015 - December 2015</span>
+                        <span class="company">CogniSens Athletics Inc.</span>
+                        <ul class="duties">
+                            <li>
+                                Performed feature additions, maintenance, and bug fixing on existing code base
+                            </li>
+                            <li>
+                                Built an email parser for automating product activations, using Python and deployed on Heroku
+                            </li>
+                            <li>
+                                Performed as-need improvements to the product website, using HTML and CSS
+                            </li>
+                        </ul>
                     </li>
                     <li>
-                        <span>I.T. and Operations Intern</span>
-                        <span>May 2015 - August 2015</span>
-                        <span>CogniSens Athletics Inc</span>
-                    </li>
-                    <li>
-                        <span>Project Manager</span>
-                        <span>November 2011 - November 2013</span>
-                        <span>NeuroRx Research</span>
+                        <h4>I.T. and Operations Intern</h4>
+                        <span class="dates">May 2015 - August 2015</span>
+                        <span class="company">CogniSens Athletics Inc</span>
+                        <ul class="duties">
+                            <li>
+                                Created a web installer for NeuroTracker, Cognisens' core product, using BitRock Installer, C++, and batch scripting
+                            </li>
+                            <li>
+                                Coded a C++ program for setting NVIDIA graphic cards setting to optimal values for running NeuroTracker software
+                            </li>
+                            <li>
+                                Performed software pre-release testing
+                            </li>
+                            <li>
+                                Investigated and resolved technical support issues
+                            </li>
+                        </ul>
                     </li>
                 </ul>
                 <h3>Education</h3>
-                <ul>
+                <ul class="education">
                     <li>
-                        <span>Bachelor of Computer Science [INCOMPLETE]</span>
-                        <span>2014 - 2015</span>
-                        <span>Concordia University</span>
-                        <span>Montreal, Quebec, Canada</span>
+                        <h4>Bachelor of Computer Science <span class="incomplete">INCOMPLETE</span></h4>
+                        <span class="dates">2014 - 2015</span>
+                        <div class="institution">Concordia University</div>
+                        <div>Montreal, Quebec, Canada</div>
                     </li>
                     <li>
-                        <span>Bachelor of Science (Honours), major Psychology</span>
-                        <span>2007 - 2010</span>
-                        <span>McGill University</span>
-                        <span>Montreal, Quebec, Canada</span>
+                        <h4>Bachelor of Science (Honours), major Psychology</h4>
+                        <span class="dates">2007 - 2010</span>
+                        <div class="institution">McGill University</div>
+                        <div>Montreal, Quebec, Canada</div>
                     </li>
                 </ul>
             </section>

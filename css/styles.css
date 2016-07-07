@@ -23,6 +23,10 @@ h3 {
     margin-top: 0;
 }
 
+h4 {
+    margin-bottom: 0em;
+}
+
 ul {
     padding-left: 0;
     list-style: none;
@@ -36,6 +40,21 @@ ul {
     cursor:pointer;
 }
 
+.technologies li, .skills li{
+    display: inline-flex;
+    align-items: center;
+    height: 2em;
+    background-color: #265A6B;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 80%;
+    letter-spacing: 0.1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: 0.2em;
+    margin-left: 0em;
+}
 /* HEADER ----------------------------------------------------------*/
 header {
     padding-top: 1em;
@@ -99,12 +118,12 @@ nav .button.active {
 
 /*  PROJECTS  ------------------------------------------------------*/
 
-[data-section=projects] ul {
+.projects {
     display: flex;
     flex-wrap: wrap;
 }
 
-[data-section=projects] li {
+.projects .project {
     width: 40%;
     border: 2px solid #265A6B;
     padding: 1em;
@@ -112,23 +131,41 @@ nav .button.active {
     display: inline-block;
 }
 
-[data-section=projects] span {
-    display: inline-flex;
-    align-items: center;
-    height: 2em;
-    background-color: #265A6B;
-    color: white;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 80%;
-    letter-spacing: 0.1em;
-    padding-left: 1em;
-    padding-right: 1em;
-    margin: 0.2em;
-    margin-left: 0em;
+/*  RESUME  --------------------------------------------------------*/
+
+[data-section="resume"] ul {
+    margin-left: 1em;
 }
 
+.experience > li, .education > li{
+    padding-left: 10em;
+    position: relative;
+}
 
+.dates {
+    width: 10em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-style: italic;
+}
+
+.duties {
+    list-style-type: square;
+    margin-left: 0em;
+    margin-top: 0.5em;
+}
+
+.duties li {
+    margin-top: 0.5em;
+}
+
+.incomplete {
+    color: grey;
+    padding-left: 1em;
+    letter-spacing: 0.1em;
+    font-size: 90%;
+}
 /* FOOTER ----------------------------------------------------------*/
 footer {
     display: none;
