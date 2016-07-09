@@ -20,7 +20,10 @@ h1 {
 }
 
 h2 {
-    visibility: hidden;
+    visibility: hidden; /* Show the headers on Mobile only, but set visibility to hidden so that
+    the header still appears for search engines and when inspecting the page*/
+    color: #265A6B;
+    text-align: center;
 }
 
 h3 {
@@ -218,6 +221,56 @@ nav .button.active {
 
 [data-section=contact] .icon-new-tab {
     padding-right: 0em;
+}
+
+/* RESPONSIVE ----------------------------------------------------------------*/
+
+@media (max-width: 1000px) {
+    .projects .project {
+        width: 100%;
+    }
+}
+
+/* TABLETS */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 250%;
+    }
+    nav .button {
+        font-size: 100%;
+    }
+    .projects .project {
+        width: 100%;
+    }
+    .experience li, .education li {
+        padding-left: 0em;
+    }
+    .dates {
+        position:relative;
+        font-style: normal;
+        width:auto;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 425px) {
+    h1 {
+        font-size: 225%;
+    }
+    h2 {
+        visibility: visible
+    }
+    nav .button {
+        font-size: 85%;
+    }
+    .main {
+        width: 90%;
+    }
+    .projects .project {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
 
