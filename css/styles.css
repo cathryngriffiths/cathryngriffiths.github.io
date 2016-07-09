@@ -256,6 +256,9 @@ nav .button.active {
         padding-left: 20%;
         padding-right: 20%;
     }
+    h2 {
+        visibility: visible
+    }
 }
 
 @media (max-width: 605px) {
@@ -268,9 +271,6 @@ nav .button.active {
 @media (max-width: 450px) {
     h1 {
         font-size: 225%;
-    }
-    h2 {
-        visibility: visible
     }
     nav {
         padding-left: 0%;
