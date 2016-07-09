@@ -22,12 +22,12 @@ h1 {
 h2 {
     visibility: hidden; /* Show the headers on Mobile only, but set visibility to hidden so that
     the header still appears for search engines and when inspecting the page*/
-    color: #265A6B;
+    color: #2E8B57;
     text-align: center;
 }
 
 h3 {
-    color: #265A6B;
+    color: #2E8B57;
     margin-top: 0;
 }
 
@@ -42,7 +42,7 @@ ul {
 
 a:link, a:visited, a:active, .main .button {
     cursor: pointer;
-    color: #825e96;
+    color: #2E8B57;
     border-bottom: 2px solid transparent;
     font-weight: bold;
     text-decoration: none;
@@ -50,7 +50,7 @@ a:link, a:visited, a:active, .main .button {
 }
 
 a:hover, .main .button:hover {
-    border-bottom-color: #825e96;
+    border-bottom-color: #2E8B57;
 }
 
 .icon {
@@ -65,7 +65,7 @@ a:hover, .main .button:hover {
     display: inline-flex;
     align-items: center;
     height: 2em;
-    background-color: #265A6B;
+    background-color: #2E8B57;
     color: white;
     text-transform: uppercase;
     font-weight: bold;
@@ -117,6 +117,7 @@ nav .button.active {
 /* MAIN CONTENT ----------------------------------------------------*/
 .main {
     width: 70%;
+    max-width: 800px;
     margin-left:auto;
     margin-right:auto;
     position: relative;
@@ -150,7 +151,7 @@ nav .button.active {
 
 .projects .project {
     width: 40%;
-    border: 2px solid #265A6B;
+    border: 2px solid #2E8B57;
     padding: 1em;
     margin: 1em;
     display: inline-block;
@@ -215,7 +216,7 @@ nav .button.active {
 }
 
 [data-section=contact] .icon {
-    color: #825e96;
+    color: #2E8B57;
     padding-right: 0.5em;
 }
 
