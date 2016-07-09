@@ -231,8 +231,7 @@ nav .button.active {
     }
 }
 
-/* TABLETS */
-@media (max-width: 768px) {
+@media (max-width: 805px) {
     h1 {
         font-size: 250%;
     }
@@ -252,13 +251,30 @@ nav .button.active {
     }
 }
 
-/* MOBILE */
-@media (max-width: 425px) {
+@media (max-width: 730px) {
+    nav {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
+
+@media (max-width: 605px) {
+    nav {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+@media (max-width: 450px) {
     h1 {
         font-size: 225%;
     }
     h2 {
         visibility: visible
+    }
+    nav {
+        padding-left: 0%;
+        padding-right: 0%;
     }
     nav .button {
         font-size: 85%;
