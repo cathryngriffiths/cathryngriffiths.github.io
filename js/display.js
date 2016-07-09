@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    var navButtons   = $("nav .button");        // Navigation buttons
+    var navButtons   = $(".button");        // Navigation buttons
     var mainSections = $(".main section");      // Main content sections
 
     // Bind the event listeners to the navigation buttons

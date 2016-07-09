@@ -32,6 +32,19 @@ ul {
     list-style: none;
 }
 
+a:link, a:visited, a:active, .main .button {
+    cursor: pointer;
+    color: #825e96;
+    border-bottom: 2px solid transparent;
+    font-weight: bold;
+    text-decoration: none;
+    transition: border-bottom-color 0.5s;
+}
+
+a:hover, .main .button:hover {
+    border-bottom-color: #825e96;
+}
+
 .icon {
     font-family: 'icomoon';
 }
@@ -166,6 +179,27 @@ nav .button.active {
     letter-spacing: 0.1em;
     font-size: 90%;
 }
+/* CONTACT  --------------------------------------------------------*/
+
+[data-section=contact] a {
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+[data-section=contact] li {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+[data-section=contact] .icon {
+    color: #825e96;
+    padding-right: 0.5em;
+}
+
+[data-section=contact] .icon-new-tab {
+    padding-right: 0em;
+}
+
 /* FOOTER ----------------------------------------------------------*/
 footer {
     display: none;
