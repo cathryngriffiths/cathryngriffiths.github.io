@@ -7,14 +7,12 @@
         <title>Cathryn Griffiths | Web Developer</title>
 
         <!-- CSS --> 
-        <link href="css/normalize.css" rel="stylesheet">
-        <link href="css/fonts.css" rel="stylesheet">
-        <link href="css/styles.css" rel="stylesheet">
+        <link href="dist/css/normalize.min.css" rel="stylesheet">
+        <link href="dist/css/fonts.min.css" rel="stylesheet">
+        <link href="dist/css/styles.min.css" rel="stylesheet">
 
         <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:400|Permanent+Marker" rel="stylesheet">
 
         <!-- Google Analytics -->
         <script>
@@ -35,13 +33,13 @@
 
         <!-- NAVIGATION BAR -->
         <nav>
-            <div class="button active" data-section="about">About Me</div><div class="button" data-section="projects">My Projects</div><div class="button" data-section="resume">My Resume</div><div class="button" data-section="contact">Contact Me</div>
+            <div class="button active" data-section="about">About</div><div class="button" data-section="projects">Projects</div><div class="button" data-section="resume">Resume</div><div class="button" data-section="contact">Contact</div>
         </nav>
 
         <!-- MAIN CONTENT -->
         <section class="main">
             <section data-section="about" class="active">
-                <h2>About Me</h2>
+                <h2>About</h2>
                 <p>
                     Hi! I'm Cathryn.
                 </p>
@@ -52,14 +50,14 @@
                     I enjoy building web applications and coding fun, exciting ideas into reality.
                 </p>
                 <p>
-                    Please take a look at some of the <span class="button" data-section="projects">projects</span> I've worked on, or glance at <span class="button" data-section="resume">my resume</span> to learn more about me. Of course, don't hesitate to <span class="button" data-section="contact">contact me</span> with your ideas, opportunities, or just to say hello!
+                    Please take a look at some of the <span class="link" data-section="projects">projects</span> I've worked on, or glance at <span class="link" data-section="resume">my resume</span> to learn more about me. Of course, don't hesitate to <span class="link" data-section="contact">contact me</span> with your ideas, opportunities, or just to say hello!
                 </p>
             </section>
             <section data-section="projects">
-                <h2>My Projects</h2>
+                <h2>Projects</h2>
                 <p>
                     Here is a subset of personal and academic projects that I've worked on. 
-                    To see more projects, please visit me on <a href="http://www.github.com/escrimeuse" target="_blank">GitHub <span class="icon icon-new-tab"></span></a>.
+                    To see more projects, please visit me on <a class="link " href="http://www.github.com/escrimeuse" >GitHub</a>.
                 <p>
                 <ul class="projects">
                     <li class="project">
@@ -80,17 +78,15 @@
                             its close approach and orbital data) can be viewed when the user clicks on a specific NEA. 
                             Users can also specify the units of measure (metric, imperial) and the sorting criteria. 
                         </p>
-                         <ul class="view">
+                         <ul class="view-project">
                             <li>
-                                <a href="http://www.cathryngriffiths.com/nearearthobjects" target="_blank">
+                                <a href="http://www.cathryngriffiths.com/nearearthobjects"  class="link ">
                                     website
-                                    <span class="icon icon-new-tab"></span>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://github.com/escrimeuse/nearearthasteroids" target="_blank">
+                                <a href="https://github.com/escrimeuse/nearearthasteroids"  class="link ">
                                     code
-                                    <span class="icon icon-new-tab"></span>
                                 </a>
                             </li>
                         </ul>
@@ -106,17 +102,15 @@
                         <p>
                             A single-page web application visualizing my board game collection. Games can be sorted by name, playing time, or number of players, and can be filtered according to game mechanics or game category. 
                         </p>
-                         <ul class="view">
+                         <ul class="view-project">
                             <li>
-                                <a href="http://www.cathryngriffiths.com/boardgamecollection" target="_blank">
+                                <a href="http://www.cathryngriffiths.com/boardgamecollection"  class="link ">
                                     website
-                                    <span class="icon icon-new-tab"></span>
                                 </a>
                             </li>
                             <li>
-                                <a href="http://www.github.com/escrimeuse/boardgamecollection" target="_blank">
+                                <a href="http://www.github.com/escrimeuse/boardgamecollection"  class="link ">
                                     code
-                                    <span class="icon icon-new-tab"></span>
                                 </a>
                             </li>
                         </ul>
@@ -131,17 +125,15 @@
                         <p>
                             A single-page web application for organizing a Secret Santa. 
                         </p>
-                         <ul class="view">
+                         <ul class="view-project">
                             <li>
-                                <a href="http://www.cathryngriffiths.com/secretsanta" target="_blank">
+                                <a href="http://www.cathryngriffiths.com/secretsanta" class="link ">
                                     website
-                                    <span class="icon icon-new-tab"></span>
                                 </a>
                             </li>
                             <li>
-                                <a href="http://www.github.com/escrimeuse/secretsanta" target="_blank">
+                                <a href="http://www.github.com/escrimeuse/secretsanta"  class="link ">
                                     code
-                                    <span class="icon icon-new-tab"></span>
                                 </a>
                             </li>
                         </ul>
@@ -154,11 +146,10 @@
                         <p>
                             A console-based, multiplayer Risk game created as a team project for my Advanced Program Design in C++ class at Concordia University in Fall 2015. My main responsibilities were coding the battle phase, fortification/reinforcement phase, and the game saver/loader. Some of the design patterns I used were the Observer pattern and Builder pattern. 
                         </p>
-                        <ul class="view">
+                        <ul class="view-project">
                             <li>
-                                <a href="http://www.github.com/escrimeuse/risk" target="_blank">
+                                <a href="http://www.github.com/escrimeuse/risk"  class="link ">
                                     code
-                                    <span class="icon icon-new-tab"></span>
                                 </a>
                             </li>
                         </ul>
@@ -166,115 +157,159 @@
                 </ul>
             </section>
             <section data-section="resume">
-                <h2>My Resume</h2>
-                <h3>Skills</h3>
-                <ul class="skills">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>Python</li>
-                    <li>C++</li>
-                    <li>Java</li>
-                    <li>Git</li>
-                </ul>
-                <h3>Relevant Experience</h3>
-                <ul class="experience">
-                    <li>
-                        <h4>Front-End Developer</h4>
-                        <div class="company">
-                            <span>FFunction</span>
-                            <a href="http://www.ffctn.com" target="_blank"><span class="icon icon-new-tab"></span></a>
-                        </div>
-                        <div class="dates">January 2016 - present</div>
-                        <ul class="duties">
-                            <li>
-                                Responsible for coding front-end web applications (desktop, tablet, and mobile) using HTML, CSS, and JavaScript, based on
-                                wireframes and mockups created by the design and UX team. 
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h4>Junior Software Developer</h4>
-                        <div class="company">
-                            <span>CogniSens Athletics Inc</span>
-                            <a href="https://www.linkedin.com/company/cognisensinc" target="_blank"><span class="icon icon-new-tab"></span></a>
-                        </div>
-                        <div class="dates">September 2015 - December 2015</div>
-                        <ul class="duties">
-                            <li>
-                                Performed feature additions, maintenance, and bug fixing on existing code base
-                            </li>
-                            <li>
-                                Built an email parser for automating product activations, using Python and deployed on Heroku
-                            </li>
-                            <li>
-                                Performed as-need improvements to the product website, using HTML and CSS
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h4>I.T. and Operations Intern</h4>
-                        <div class="company">
-                            <span>CogniSens Athletics Inc</span>
-                            <a href="https://www.linkedin.com/company/cognisensinc" target="_blank"><span class="icon icon-new-tab"></span></a>
-                        </div>
-                        <div class="dates">May 2015 - August 2015</div>
-                        <ul class="duties">
-                            <li>
-                                Created a web installer for NeuroTracker, Cognisens' core product, using BitRock Installer, C++, and batch scripting
-                            </li>
-                            <li>
-                                Coded a C++ program for setting NVIDIA graphic cards setting to optimal values for running NeuroTracker software
-                            </li>
-                            <li>
-                                Performed software pre-release testing
-                            </li>
-                            <li>
-                                Investigated and resolved technical support issues
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-                <h3>Education</h3>
-                <ul class="education">
-                    <li>
-                        <h4>Bachelor of Computer Science <span class="incomplete">INCOMPLETE</span></h4>
-                        <span class="dates">2014 - 2015</span>
-                        <div class="institution">Concordia University</div>
-                        <div>Montreal, Quebec, Canada</div>
-                    </li>
-                    <li>
-                        <h4>Bachelor of Science (Honours), major Psychology</h4>
-                        <span class="dates">2007 - 2010</span>
-                        <div class="institution">McGill University</div>
-                        <div>Montreal, Quebec, Canada</div>
-                    </li>
-                </ul>
+                <h2>Resume</h2>
+                <section>
+                    <h3>Skills</h3>
+                    <ul class="skills">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>C++</li>
+                        <li>Java</li>
+                        <li>Git</li>
+                        <li>Mercurial</li>
+                        <li>Firebase</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Experience</h3>
+                    <ul class="experience">
+                        <li>
+                            <h4>Front-End Developer</h4>
+                            <div class="company">
+                                <a href="http://www.ffctn.com" class="link ">
+                                    FFunction
+                                </a>
+                            </div>
+                            <div class="dates">January 2016 - present</div>
+                            <ul class="duties">
+                                <li>
+                                    Responsible for coding front-end web applications (desktop, tablet, and mobile) using HTML, CSS, and JavaScript, based on
+                                    wireframes and mockups created by the design and UX team. 
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h4>Junior Software Developer</h4>
+                            <div class="company">
+                                <a href="https://www.linkedin.com/company/cognisensinc"  class="link ">
+                                    CogniSens Athletics Inc.
+                                </a>
+                            </div>
+                            <div class="dates">September 2015 - December 2015</div>
+                            <ul class="duties">
+                                <li>
+                                    Performed feature additions, maintenance, and bug fixing on existing code base
+                                </li>
+                                <li>
+                                    Built an email parser for automating product activations, using Python and deployed on Heroku
+                                </li>
+                                <li>
+                                    Performed as-need improvements to the product website, using HTML and CSS
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h4>I.T. and Operations Intern</h4>
+                            <div class="company">
+                                <a href="https://www.linkedin.com/company/cognisensinc"  class="link ">
+                                    CogniSens Athletics Inc.
+                                </a>
+                            </div>
+                            <div class="dates">May 2015 - August 2015</div>
+                            <ul class="duties">
+                                <li>
+                                    Created a web installer for NeuroTracker, Cognisens' core product, using BitRock Installer, C++, and batch scripting
+                                </li>
+                                <li>
+                                    Coded a C++ program for setting NVIDIA graphic cards setting to optimal values for running NeuroTracker software
+                                </li>
+                                <li>
+                                    Performed software pre-release testing
+                                </li>
+                                <li>
+                                    Investigated and resolved technical support issues
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h4>Project Manager</h4>
+                            <div class="company">
+                                <a href="http://www.neurorx.com"  class="link ">
+                                    NeuroRx Research
+                                </a>
+                            </div>
+                            <div class="dates">November 2011 - November 2013</div>
+                            <ul class="duties">
+                                <li>
+                                    Project manage for multiple international clinical trials in Multiple Sclerosis and Alzheimer's Disease research
+                                </li>
+                                <li>
+                                    Coordinated the MRI activation of 200+ international clinical sites
+                                </li>
+                                <li>
+                                    Internal team coordination, ensuring completion of MRI metrics as per study timeline
+                                </li>
+                                <li>
+                                    Lead weekly team teleconferences
+                                </li>
+                                <li>
+                                    Wrote and sent weekly project status reports
+                                </li>
+                                <li>
+                                    Performed MRI scan quality control review
+                                </li>
+                                <li>
+                                    Performed audit preparation duties including documentation review
+                                </li>
+                                <li>
+                                    Attended investigator meetings in Chicago USA, London UK, and Sydney AUS
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Education</h3>
+                    <ul class="education">
+                        <li>
+                            <h4>Bachelor of Computer Science <span class="incomplete">(on hold)</span></h4>
+                            <span class="dates">2014 - 2015</span>
+                            <div class="institution">Concordia University</div>
+                            <div>Montreal, Quebec, Canada</div>
+                        </li>
+                        <li>
+                            <h4>Bachelor of Science (Honours), major Psychology</h4>
+                            <span class="dates">2007 - 2010</span>
+                            <div class="institution">McGill University</div>
+                            <div>Montreal, Quebec, Canada</div>
+                        </li>
+                    </ul>
+                </section>
             </section>
             <section data-section="contact">
-                <h2>Contact Me</h2>
+                <h2>Contact</h2>
                 <p>
                     Please feel free to contact me using any of the methods listed below.
                 </p>
                 <ul>
                     <li>
                         <span class="icon icon-mail"></span>
-                        <a href="mailto:cathryn.griffiths@gmail.com">
+                        <a class="link" href="mailto:cathryn.griffiths@gmail.com">
                             cathryn.griffiths@gmail.com
                         </a>
                     </li>
                     <li>
                         <span class="icon icon-linkedin"></span>
-                        <a href="https://www.linkedin.com/in/cathryn-griffiths-52008015" target="_blank">
+                        <a class="link " href="https://www.linkedin.com/in/cathryn-griffiths-52008015" >
                             cathryn-griffiths-52008015
-                            <span class="icon icon-new-tab"></span>
                         </a>
                     </li>
                     <li>
                         <span class="icon icon-github"></span>
-                        <a href="https://github.com/escrimeuse" target="_blank">
+                        <a class="link " href="https://github.com/escrimeuse" >
                             escrimeuse
-                            <span class="icon icon-new-tab"></span>
                         </a>
                     </li>
                 </ul>
@@ -282,7 +317,7 @@
         </section>
 
         <!-- JavaScript -->
-        <script src="js/jquery-3.0.0.min.js"></script>
-        <script src="js/display.js"></script>
+        <script src="dist/js/jquery-3.0.0.min.js"></script>
+        <script src="dist/js/display.min.js"></script>
     </body>
 </html>
