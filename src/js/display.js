@@ -1,6 +1,6 @@
 $(document).ready(function(){
-    var navButtons   = $(".button");        // Navigation buttons
-    var mainSections = $(".main section");      // Main content sections
+    var navButtons    = $("[data-internal-link]");  // Internal links
+    var mainSections  = $(".main section");         // Main content sections
 
     // Bind the event listeners to the navigation buttons
     navButtons.each(function(){
