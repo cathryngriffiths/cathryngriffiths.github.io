@@ -22,12 +22,12 @@ h1 {
 h2 {
     visibility: hidden; /* Show the headers on Mobile only, but set visibility to hidden so that
     the header still appears for search engines and when inspecting the page*/
-    color: #2E8B57;
+    color: #D76D77;
     text-align: center;
 }
 
 h3 {
-    color: #2E8B57;
+    color: #D76D77;
     margin-top: 0;
 }
 
@@ -42,10 +42,10 @@ ul {
 
 .link, .link:link, .link:visited, .link:active {
     cursor: pointer;
-    color: #2E8B57;
+    color: #D76D77;
     font-weight: bold;
     text-decoration: none;
-    transition: border-bottom-color 0.5s;
+    transition: opacity 0.5s;
     display: inline-block;
     position: relative;
 }
@@ -58,7 +58,7 @@ ul {
     right: 50%;
     bottom: 0;
     opacity: 0;
-    background-color: #2E8B57;
+    background-color: #D76D77;
     transition: left 0.5s, right 0.5s, opacity 0.5s;
 }
 
@@ -72,7 +72,7 @@ ul {
     display: inline-flex;
     align-items: center;
     height: 2em;
-    background-color: #2E8B57;
+    background-color: #D76D77;
     color: white;
     text-transform: uppercase;
     font-weight: bold;
@@ -82,19 +82,29 @@ ul {
     padding-right: 1em;
     margin: 0.2em;
     margin-left: 0em;
+    border-radius: 2px;
+}
+
+.fa {
+    color: #D76D77;
+    font-size: 2.5em !important;
 }
 /* HEADER ----------------------------------------------------------*/
 header {
     padding-top: 1em;
     padding-bottom: 1em;
     text-align: center;
-    background-color: #2E8B57;
+    background: #D76D77;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 /* NAVBAR ----------------------------------------------------------*/
 nav {
-    background-color: #4E9C68;
     text-align: center;
+    background: #D76D77;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 nav .button {
@@ -107,7 +117,6 @@ nav .button {
     padding-left: 2em;
     padding-right: 2em;
     color: white;
-    transition: background-color 0.5s, opacity 0.5s;
     font-weight:bold;
     letter-spacing:0.05em;
     font-size:110%;
@@ -115,11 +124,9 @@ nav .button {
 }
 
 nav .button:hover {
-    background-color: #2E8B57;
 }
 
 nav .button.active {
-    background-color: #8fbc8f ;
 }
 
 /* MAIN CONTENT ----------------------------------------------------*/
@@ -159,7 +166,8 @@ nav .button.active {
 
 [data-section=projects] .projects .project {
     width: 40%;
-    border: 2px solid #2E8B57;
+    border: 1px solid #D76D77;
+    border-radius: 2px;
     padding: 1em;
     margin: 1em;
     display: inline-block;
@@ -177,16 +185,14 @@ nav .button.active {
 
 /*  RESUME  --------------------------------------------------------*/
 
-[data-section="resume"] ul {
-    margin-left: 1em;
-}
-
 [data-section="resume"] section {
     margin-bottom: 3em;
 }
 
 [data-section="resume"] .experience > li, [data-section="resume"] .education > li{
-    padding-left: 10em;
+    padding-left: 13em;
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
     position: relative;
 }
 
@@ -195,12 +201,11 @@ nav .button.active {
     position: absolute;
     top: 0;
     left: 0;
-    font-style: italic;
 }
 
 [data-section="resume"] .duties {
-    list-style-type: square;
-    margin-left: 0em;
+    list-style-type: circle;
+    margin-left: 1em;
     margin-top: 0.5em;
 }
 
@@ -222,13 +227,28 @@ nav .button.active {
     margin-top: 0.5em;
 }
 
+[data-section=contact] ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 [data-section=contact] li {
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 2em;
+}
+
+[data-section=contact] .social a:before {
+    display: none;
 }
 
 [data-section=contact] .icon {
-    color: #2E8B57;
+    color: #D76D77;
     padding-right: 0.5em;
 }
 
