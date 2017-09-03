@@ -123,12 +123,6 @@ nav .button {
     cursor: pointer;
 }
 
-nav .button:hover {
-}
-
-nav .button.active {
-}
-
 /* MAIN CONTENT ----------------------------------------------------*/
 .main {
     width: 70%;
@@ -165,12 +159,8 @@ nav .button.active {
 }
 
 [data-section=projects] .projects .project {
-    width: 40%;
-    border: 1px solid #D76D77;
-    border-radius: 2px;
-    padding: 1em;
-    margin: 1em;
-    display: inline-block;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 [data-section=projects] .view-project {
