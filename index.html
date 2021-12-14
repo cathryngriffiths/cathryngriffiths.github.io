@@ -1,310 +1,102 @@
 <!DOCTYPE html>
-<html>
-    <head lang="en">
-        <meta charset="UTF-8">
-        <meta name="description" content="Personal website for Cathryn Griffiths, a web developer based in Montreal, Canada.">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Cathryn Griffiths | Web Developer</title>
-
-        <!-- Sharing -->
-        <meta property="og:title" content="Cathryn Griffiths | Web Developer" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="http://www.cathryngriffiths.com" />
-        <meta property="og:description" content="Personal website for Cathryn Griffiths, a web developer based in Montreal, Canada. Includes resume and examples of personal
-        projects." />
-        <meta property="og:image" content="http://www.cathryngriffiths.com/dist/images/social.png" />
-        <meta property="og:image:type" content="image/png" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-
-        <!-- CSS --> 
-        <link href="dist/css/normalize.min.css" rel="stylesheet">
-        <link href="dist/css/styles.min.css" rel="stylesheet">
-
-        <!-- Font Awesome --> 
-        <script src="https://use.fontawesome.com/e3260e5cda.js"></script>
-
-        <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:400|Permanent+Marker" rel="stylesheet">
-
-        <!-- Google Analytics -->
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-            ga('create', 'UA-56262489-1', 'auto');
-            ga('send', 'pageview');
-        </script>
-    </head>
-    <body>
-        <!-- HEADER -->
-        <header>
-            <h1>Cathryn Griffiths</h1>
-        </header>
-
-        <!-- NAVIGATION BAR -->
-        <nav>
-            <div class="button active" data-section="about" data-internal-link>About</div>
-            <div class="button" data-section="projects" data-internal-link>Projects</div>
-            <div class="button" data-section="resume" data-internal-link>Resume</div>
-            <div class="button" data-section="contact" data-internal-link>Contact</div>
-        </nav>
-
-        <!-- MAIN CONTENT -->
-        <section class="main">
-            <section data-section="about" class="active">
-                <h2>About</h2>
-                <p>
-                    Hi! I'm Cathryn.
-                </p>
-                <p> 
-                    I'm a web developer living in Montreal, Quebec, Canada. 
-                </p>
-                <p>
-                    I enjoy building web applications and coding fun, exciting ideas into reality.
-                </p>
-                <p>
-                    Please take a look at some of the <span class="link" data-section="projects" data-internal-link>projects</span> I've worked on, or glance at <span class="link" data-section="resume" data-internal-link>my resume</span> to learn more about me. Of course, don't hesitate to <span class="link" data-section="contact" data-internal-link>contact me</span> with your ideas, opportunities, or just to say hello!
-                </p>
-            </section>
-            <section data-section="projects">
-                <h2>Projects</h2>
-                <p>
-                    Here is a subset of personal and academic projects that I've worked on. 
-                    To see more projects, please visit me on <a class="link" href="http://www.github.com/escrimeuse" >GitHub</a>.
-                <p>
-                <ul class="projects">
-                    <li class="project">
-                        <h3>Near Earth Asteroids</h3>
-                        <ul class="technologies">
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                            <li>JQuery</li>
-                            <li>NASA's NeoWS</li>
-                            <li>Mustache.JS</li>
-                            <li>Bootstrap</li>
-                        </ul>
-                        <p>
-                            A single-page web application for displaying information about Near Earth Asteroids (NEAs).
-                            Users select a date (or date range), and a list of all NEAs are displayed, with their name,
-                            diameter, distance from Earth, and relative velocity. Detailed information about a NEA (including
-                            its close approach and orbital data) can be viewed when the user clicks on a specific NEA. 
-                            Users can also specify the units of measure (metric, imperial) and the sorting criteria. 
-                        </p>
-                         <ul class="view-project">
-                            <li>
-                                <a href="http://www.cathryngriffiths.com/nearearthobjects"  class="link ">
-                                    website
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/escrimeuse/nearearthasteroids"  class="link ">
-                                    code
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="project">
-                        <h3>Board Game Collection</h3>
-                        <ul class="technologies">
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                            <li>BoardGameGeek API</li>
-                        </ul>
-                        <p>
-                            A single-page web application visualizing my board game collection. Games can be sorted by name, playing time, or number of players, and can be filtered according to game mechanics or game category. 
-                        </p>
-                         <ul class="view-project">
-                            <li>
-                                <a href="http://www.cathryngriffiths.com/boardgamecollection"  class="link ">
-                                    website
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://www.github.com/escrimeuse/boardgamecollection"  class="link ">
-                                    code
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="project">
-                        <h3>Secret Santa</h3>
-                        <ul class="technologies">
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                        </ul>
-                        <p>
-                            A single-page web application for organizing a Secret Santa. 
-                        </p>
-                         <ul class="view-project">
-                            <li>
-                                <a href="http://www.cathryngriffiths.com/secretsanta" class="link ">
-                                    website
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://www.github.com/escrimeuse/secretsanta"  class="link ">
-                                    code
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="project">
-                        <h3>Risk</h3>
-                        <ul class="technologies">
-                            <li>C++</li>
-                        </ul>
-                        <p>
-                            A console-based, multiplayer Risk game created as a team project for my Advanced Program Design in C++ class at Concordia University in Fall 2015. My main responsibilities were coding the battle phase, fortification/reinforcement phase, and the game saver/loader. Some of the design patterns I used were the Observer pattern and Builder pattern. 
-                        </p>
-                        <ul class="view-project">
-                            <li>
-                                <a href="http://www.github.com/escrimeuse/risk"  class="link ">
-                                    code
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </section>
-            <section data-section="resume">
-                <h2>Resume</h2>
-                <section>
-                    <h3>Skills</h3>
-                    <ul class="skills">
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>Python</li>
-                        <li>C++</li>
-                        <li>Java</li>
-                        <li>Git</li>
-                        <li>Mercurial</li>
-                        <li>Firebase</li>
-                    </ul>
-                </section>
-                <section>
-                    <h3>Selected Experience</h3>
-                    <ul class="experience">
-                        <li>
-                            <h4>Front-End Developer</h4>
-                            <div class="company">
-                                <a href="http://www.ffctn.com" class="link ">
-                                    FFunction
-                                </a>
-                            </div>
-                            <div class="dates">January 2016 - present</div>
-                            <ul class="duties">
-                                <li>
-                                    Responsible for coding front-end web applications (desktop, tablet, and mobile) using HTML, CSS, and JavaScript, based on
-                                    wireframes and mockups created by the design and UX team. 
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <h4>Junior Software Developer</h4>
-                            <div class="company">
-                                <a href="https://www.linkedin.com/company/cognisensinc"  class="link ">
-                                    CogniSens Athletics Inc.
-                                </a>
-                            </div>
-                            <div class="dates">September 2015 - December 2015</div>
-                            <ul class="duties">
-                                <li>
-                                    Performed feature additions, maintenance, and bug fixing on existing code base
-                                </li>
-                                <li>
-                                    Built an email parser for automating product activations, using Python and deployed on Heroku
-                                </li>
-                                <li>
-                                    Performed as-need improvements to the product website, using HTML and CSS
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <h4>I.T. and Operations Intern</h4>
-                            <div class="company">
-                                <a href="https://www.linkedin.com/company/cognisensinc"  class="link ">
-                                    CogniSens Athletics Inc.
-                                </a>
-                            </div>
-                            <div class="dates">May 2015 - August 2015</div>
-                            <ul class="duties">
-                                <li>
-                                    Created a web installer for NeuroTracker, Cognisens' core product, using BitRock Installer, C++, and batch scripting
-                                </li>
-                                <li>
-                                    Coded a C++ program for setting NVIDIA graphic cards setting to optimal values for running NeuroTracker software
-                                </li>
-                                <li>
-                                    Performed software pre-release testing
-                                </li>
-                                <li>
-                                    Investigated and resolved technical support issues
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </section>
-                <section>
-                    <h3>Education</h3>
-                    <ul class="education">
-                        <li>
-                            <h4>Bachelor of Computer Science <span class="incomplete">(on hold)</span></h4>
-                            <span class="dates">2014 - 2015</span>
-                            <div class="institution">Concordia University</div>
-                            <div>Montreal, Quebec, Canada</div>
-                        </li>
-                        <li>
-                            <h4>Bachelor of Science (Honours), major Psychology</h4>
-                            <span class="dates">2007 - 2010</span>
-                            <div class="institution">McGill University</div>
-                            <div>Montreal, Quebec, Canada</div>
-                        </li>
-                    </ul>
-                </section>
-            </section>
-            <section data-section="contact">
-                <h2>Contact</h2>
-                <p>
-                    The best way to contact me is via email at <a class="link" href="mailto:cathryn.griffiths@gmail.com">cathryn.griffiths@gmail.com</a>. 
-                </p>
-                <p>
-                    You can also find me online on:
-                </p>
-                <ul class="social">
-                    <li>
-                        <a class="link " href="https://www.linkedin.com/in/cathryn-griffiths-52008015" >
-                            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="link " href="https://github.com/escrimeuse" >
-                            <i class="fa fa-github-square" aria-hidden="true"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="link " href="https://twitter.com/cathryn_mtl" >
-                            <i class="fa fa-twitter-square" aria-hidden="true"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="link " href="https://medium.com/@c.griffiths" >
-                            <i class="fa fa-medium" aria-hidden="true"></i>
-                        </a>
-                    </li>
-
-                </ul>
-            </section>
-        </section>
-
-        <!-- JavaScript -->
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-        <script src="dist/js/display.min.js"></script>
-    </body>
+<html lang="en-CA">
+  <head>
+    <meta charset="utf-8">
+    <title>Cathryn Griffiths</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Cathryn Griffiths">
+    <meta name="description" content="Cathryn Griffiths is a software developer based in Canada who works as a Staff Front End Developer at Shopify.">
+    <meta property="og:image" content="./cathryn.png">
+    <meta property="og:description" content="Cathryn Griffiths is a software developer based in Canada who works as a Staff Front End Developer at Shopify.">
+    <meta property="og:title" content="Cathryn Griffiths">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-size: 1.5rem;
+        font-family: 'Fira Mono', monospace;
+        background-color: #000130;
+        color: #FF346A;
+        text-align: center;
+      }
+      h1 {
+        font-size: 6rem;
+        background: -webkit-linear-gradient(#29FFFF,#FF346A, #fffe5e, #3df779);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        position: relative;
+        transform: rotate(-4deg);
+        margin-left: auto;
+        margin-right: auto;
+      }
+      main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 800px;
+        margin: 3rem auto;
+        line-height: 1.4;
+        text-align: left;
+        padding: 0 1rem;
+      }
+      .img_wrapper {
+        flex-shrink: 0;
+        width: 300px;
+        height: 300px;
+        transform: rotate(7deg);
+        background: -webkit-linear-gradient(#29FFFF,#FF346A, #fffe5e, #3df779);
+        padding: 0.8rem 0.8rem 3rem 0.8rem;
+        margin-left: 3rem;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      a, a:visited {
+        color: #29FFFF;
+        text-decoration: none;
+      }
+      a:hover, a:active, a:focus {
+        color: #fffe5e;
+        text-decoration: none;
+      }
+      li::after {
+        content: "-";
+        color: #fffe5e;
+        margin: 0 1rem;
+      }
+      li:last-child::after {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Cathryn Griffiths</h1>
+    <main>
+      <div>
+        <p>Cathryn is a software developer based in Canada.</p>
+        <p>She works as a Staff Front End Developer at Shopify, working on Shopify's checkout. Previously, she was one of the founding members of the Hydrogen team.</p>
+        <p>When not coding, you can find her hanging out with her family and friends, reading, walking her dog, or playing curling.</p>
+      </div>
+      <div class="img_wrapper">
+        <img src="./cathryn.png" alt="A photo of Cathryn standing in front of Morraine Lake in Banff National Park in Albera, Canada"/>
+      </div>
+    </main>
+    <footer>
+      <ul>
+        <li><a href="https://twitter.com/c_a_t_h_r_y_n">Twitter</a></li>
+        <li><a href="https://github.com/cathryngriffiths">GitHub</a></li>
+        <li>cathryn.griffiths@gmail.com</li>
+      </ul>
+    </footer>
+  </body>
 </html>
