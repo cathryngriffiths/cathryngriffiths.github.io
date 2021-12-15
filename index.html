@@ -14,14 +14,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap" rel="stylesheet">
     <style>
       body {
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-family: 'Fira Mono', monospace;
         background-color: #000130;
         color: #FF346A;
         text-align: center;
       }
       h1 {
-        font-size: 6rem;
+        font-size: 3rem;
         background: -webkit-linear-gradient(#29FFFF,#FF346A, #fffe5e, #3df779);
         background-clip: text;
         -webkit-background-clip: text;
@@ -32,23 +32,18 @@
         margin-right: auto;
       }
       main {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        max-width: 800px;
-        margin: 3rem auto;
         line-height: 1.4;
         text-align: left;
         padding: 0 1rem;
       }
       .img_wrapper {
         flex-shrink: 0;
-        width: 300px;
-        height: 300px;
+        width: 180px;
+        height: 180px;
         transform: rotate(7deg);
         background: -webkit-linear-gradient(#29FFFF,#FF346A, #fffe5e, #3df779);
         padding: 0.8rem 0.8rem 3rem 0.8rem;
-        margin-left: 3rem;
+        margin: 4rem auto;
       }
       img {
         width: 100%;
@@ -57,9 +52,7 @@
       }
       ul {
         list-style: none;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        padding: 0;
       }
       a, a:visited {
         color: #29FFFF;
@@ -71,11 +64,41 @@
       }
       li::after {
         content: "-";
+        display: block;
         color: #fffe5e;
-        margin: 0 1rem;
+        margin: 1rem 0;
       }
       li:last-child::after {
         display: none;
+      }
+      @media only screen and (min-width: 750px) {
+        body {
+          font-size: 1.5rem;
+        }
+        h1 {
+          font-size: 6rem;
+        }
+        main {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          max-width: 800px;
+          margin: 3rem auto;
+        }
+        .img_wrapper {
+          margin: 0 0 0 2rem;
+          width: 300px;
+          height: 300px;
+        }
+        ul {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        li::after {
+          display: inline-block;
+          margin: 0 1rem;
+        }
       }
     </style>
   </head>
@@ -84,8 +107,8 @@
     <main>
       <div>
         <p>Cathryn is a software developer based in Canada.</p>
-        <p>She works as a Staff Front End Developer at Shopify, working on Shopify's checkout. Previously, she was one of the founding members of the Hydrogen team.</p>
-        <p>When not coding, you can find her hanging out with her family and friends, reading, walking her dog, or playing curling.</p>
+        <p>She works as a Staff Front End Developer at <a href="https://www.shopify.com">Shopify</a>, working on Shopify's checkout. Previously, she was one of the founding members of the <a href="https://hydrogen.shopify.dev">Hydrogen</a> team.</p>
+        <p>Cathryn is available for speaking engagements about personal development, leadership, and technical topics.</p>
       </div>
       <div class="img_wrapper">
         <img src="./cathryn.png" alt="A photo of Cathryn standing in front of Morraine Lake in Banff National Park in Albera, Canada"/>
